@@ -10,9 +10,9 @@ This repository is associated with the **Laboratório de Computação Científic
 
 ## 📁 Repository structure
 
-O presente repositório possui a estrutura abaixo.
 This repository have the following structure
 
+```
 FerroPINN/
 ├── README.md
 ├── LICENSE
@@ -20,6 +20,7 @@ FerroPINN/
 ├── src/
 ├── docs/
 └── examples/
+```
 
 - `src/` → códigos-fonte do projeto  
 - `examples/` → casos de teste e exemplos de simulação  
