@@ -1,0 +1,11 @@
+{
+    "tempo_total_segundos": 7699.32,
+    "cpu": "x86_64",
+    "arquitetura": "x86_64",
+    "sistema": "Linux 6.14.0-27-generic",
+    "cpu_cores_fisicos": 16,
+    "cpu_cores_logicos": 32,
+    "memoria_total_GB": 67.34,
+    "gpu_disponivel": false,
+    "nome_gpu": "Nenhuma"
+}
