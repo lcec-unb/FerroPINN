@@ -126,6 +126,7 @@ limited training data.
 Unlike traditional methods, PINNs do not require a computational mesh. Instead, they minimize the
 residuals of the governing equations and can be trained with only a small number of known boundary and
 initial conditions
+
 A physics-informed neural network have the following structure:
 
 <p align="center">
