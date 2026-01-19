@@ -142,7 +142,9 @@ Se possível, cite referências bibliográficas (artigos, dissertações, teses)
 Indique a licença usada (ex: MIT).
 
 ## 📚 Referências
-Liste até 3 referências que embasam o trabalho (artigos, livros, relatórios).
+[1] Maziar Raissi, Paris Perdikaris, and George Karniadakis. Physics informed deep learning (part i): Data-driven solutions of nonlinear partial differential equations. 11 2017.
+
+[2] Carlos Marchi, Roberta Suero, and Luciano Araki. The lid-driven square cavity flow: Numerical solution with a 1024 x 1024 grid. Journal of The Brazilian Society of Mechanical Sciences and Engineering - J BRAZ SOC MECH SCI ENG, 31, 07 2009.
 
 ## 💡 Boas práticas
 - Use Markdown com títulos (`#`, `##`, `###`), listas e blocos de código.  
