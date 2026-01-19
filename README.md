@@ -8,11 +8,11 @@ The primary objective of this project is to investigate the efficiency of PINNs,
 
 This repository is associated with the **Laboratório de Computação Científica em Escoamentos Complexos (LCEC-UNB)**.
 
-## 🧠 Estrutura de novos repositórios
+## 📁 Estrutura de pastas e arquivos
 
-Novos repositórios devem obedecer à estrutura abaixo.
+O presente repositório possui a estrutura abaixo.
 
-nome_do_repositorio/
+FerroPINN/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
