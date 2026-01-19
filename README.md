@@ -80,7 +80,7 @@ Descreva brevemente o modelo físico ou matemático usado.
 Se possível, cite referências bibliográficas (artigos, dissertações, teses).
 
 ## 👥 Autoria e Responsável
-- **Autor principal:** Nome do aluno (ano)
+- **Autor principal:** André de Oliveira Brandão (2026)
 - **Orientador:** Prof. Rafael Gabler Gontijo  
 - **Laboratório:** [LCEC-UNB](https://github.com/LCEC-UNB)
 
