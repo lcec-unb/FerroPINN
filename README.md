@@ -117,7 +117,7 @@ After all the packages are installed, to run the simulation just use the command
 ## 🧪 Methodology / Mathematical Models
 In the context of fluid dynamics simulations, Physics-Informed Neural Networks (PINNs) emerge as a
 powerful alternative to traditional discrete numerical methods commonly used by engineers. Introduced firstly
-by the work of [ 1], PINNs are neural networks that incorporate the governing differential equations directly
+by the work of [1], PINNs are neural networks that incorporate the governing differential equations directly
 into their learning process, serving as a physical constraint or regularizer for the predicted results.
 While conventional neural networks rely solely on training data to adjust their outputs, PINNs go a step
 further by embedding the physical laws themselves into the optimization process. This makes them a valuable
