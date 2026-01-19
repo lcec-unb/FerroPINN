@@ -123,8 +123,25 @@ A physics-informed neural network have the following structure:
   <em>Figure 4 – Structure of a PINN.</em>
 </p>
 
-Briefly describe the physical or mathematical model employed.
-Whenever possible, cite relevant bibliographic references (articles, dissertations, theses).
+The neural network consists of the following main components, as indicated in the figure above:
+
+1. **Inputs (\(x, y, t\))**  
+   The network receives spatial and temporal coordinates as inputs.
+
+2. **Neural Network**  
+   Acts as a universal function approximator for the physical fields of interest, such as velocity (\(u, v\)) and pressure (\(p\)).
+
+3. **Automatic Differentiation (AD)**  
+   This is the *core* of a PINN. It enables the computation of partial derivatives of the network outputs with respect to the inputs without requiring a numerical grid (mesh).
+
+4. **Loss Function**  
+   The loss function is decomposed into three main components:
+   - **PDE Residuals**: Enforce the governing physical laws (differential equations) at the collocation points.
+   - **Boundary Loss**: Enforce the boundary conditions of the problem.
+   - **Initial Loss**: Enforce the initial conditions.
+
+5. **Optimizer**  
+   Updates the network weights to minimize the combined physics-informed loss.
 
 ## 👥 Authorship and Supervision
 - **Main author:** André de Oliveira Brandão (2026)
