@@ -22,9 +22,9 @@ FerroPINN/
 └── examples/
 ```
 
-- `src/` → códigos-fonte do projeto  
-- `examples/` → casos de teste e exemplos de simulação  
-- `docs/` → documentação, artigos e anotações técnicas 
+- `src/` → project source codes  
+- `examples/` → test cases and simulation examples  
+- `docs/` → documentation, articles, and technical notes
 
 ## 📝 Codes
 
@@ -38,43 +38,6 @@ This script extends the baseline PINN solver for the two-dimensional lid-driven 
 
 The script is designed for parameter sweeps and comparative studies, automatically organizing the results of each simulation into structured directories according to the Reynolds number. Unlike the baseline version, this implementation prioritizes automation and reproducibility over interactivity, making it suitable for systematic numerical experiments.
 
-# 🧭 Guia de Boas Práticas – Como escrever um bom README.md
-
-Um bom `README.md` é o **cartão de visita do seu projeto científico**.  
-Ele deve permitir que qualquer pessoa (inclusive você, no futuro!) entenda rapidamente  
-**o que o código faz**, **como rodar**, **como contribuir** e **quais resultados esperar**.  
-
-O arquivo README.md deve ser completo e descrever de maneira clara e interessante o que o programa faz, como faz, para que serve, qual o contexto de sua criação, artigos científicos vinculados ao programa e referências bibliográficas. O README.md pode conter imagens e equações científicas usando sintaxe LaTeX. Apenas garanta que essas equações fiquem visíveis ao subir o README.md para o GitHuB. As imagens ilustrativas contidas no README.md podem ser armazenadas dentro da pasta examples e de preferência em formato PNG. Para documentações muito extensas, você pode criar seções e um sumário no início do arquivo README.md (ver exemplos no repositório do simmsus: https://github.com/lcec-unb/simmsus). 
-
-Abaixo estão as **boas práticas recomendadas pelo LCEC-UNB**.
-
----
-
-## 📘 Estrutura mínima recomendada
-
-```markdown
-# Nome do Projeto
-Breve descrição do objetivo e contexto científico do projeto.
-
-## 🎯 Objetivo
-Explique em 2–3 frases o que o programa resolve ou investiga.
-Exemplo: “Simula o campo de temperatura em um tecido biológico sujeito a aquecimento magnético.”
-
-## ⚙️ Estrutura de Pastas
-Descreva como o projeto está organizado:
-- `src/` – códigos-fonte principais
-- `examples/` – casos de teste e exemplos de simulação
-- `docs/` – relatórios, artigos, anotações e resultados
-- `input/` (opcional) – arquivos de entrada
-- `output/` (opcional) – resultados gerados
-
-## 🚀 Execução
-Explique como compilar e rodar:
-```bash
-make
-./programa.exe < input.dat > output.log
-```
-Inclua também dependências (por exemplo, “necessita do compilador `gfortran` ou `ifx`”).
 
 ## 📊 Outputs examples
 
