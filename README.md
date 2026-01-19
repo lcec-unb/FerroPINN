@@ -129,6 +129,26 @@ and an output file named `info_execucao.json` with the following informations
     "nome_gpu": "Nenhuma"
 }
 ```
+## Required packages
+
+### Python standard library
+- os
+- json
+- time
+- platform
+- datetime
+
+### Third-party packages
+- torch
+- numpy
+- matplotlib
+- pyvista
+- scikit-learn
+- psutil
+
+## 🚀 Execution
+
+After all the packages are installed, just run the simulation just run `python3 cavidade_cisalhante.py` in a terminal.
 
 ## 🧪 Metodologia / Modelos Matemáticos
 Descreva brevemente o modelo físico ou matemático usado.
