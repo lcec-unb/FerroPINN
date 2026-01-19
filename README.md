@@ -115,6 +115,14 @@ and an output file named `info_execucao.json` with the following informations
 After all the packages are installed, to run the simulation just use the command `python3 cavidade_cisalhante.py` in a terminal.
 
 ## 🧪 Methodology / Mathematical Models
+
+A physics-informed neural network have the following structure:
+
+<p align="center">
+  <img src="docs/PINN_structure.png" width="45%"><br>
+  <em>Figure 4 – Structure of a PINN.</em>
+</p>
+
 Briefly describe the physical or mathematical model employed.
 Whenever possible, cite relevant bibliographic references (articles, dissertations, theses).
 
