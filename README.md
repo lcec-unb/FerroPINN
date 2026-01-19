@@ -1,7 +1,12 @@
 # FerroPINN
 
-Este repositório serve como **modelo base** para novos projetos de código científico
-desenvolvidos no **Laboratório de Computação Científica em Escoamentos Complexos (LCEC-UNB)**.
+
+This repository contains Python codes that simulate the lid-driven cavity flow using Physics-Informed Neural Networks (PINNs). The main library employed is [PyTorch](https://pypi.org/project/torch/)
+, which provides the core tools required to implement and train PINN models.
+
+The primary objective of this project is to investigate the efficiency of PINNs, starting with a simple validation case (the lid-driven cavity) and subsequently advancing to a more complex physical problem: the thermoconvection of magnetic fluids under an applied magnetic field.
+
+This repository is associated with the **Laboratório de Computação Científica em Escoamentos Complexos (LCEC-UNB)**.
 
 ## 🧠 Estrutura de novos repositórios
 
