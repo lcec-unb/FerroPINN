@@ -24,6 +24,18 @@ FerroPINN/
 - `examples/` → casos de teste e exemplos de simulação  
 - `docs/` → documentação, artigos e anotações técnicas 
 
+## 📝 Codes
+
+### cavidade_cisalhante.py
+
+This script implements a baseline PINN solver for the two-dimensional lid-driven cavity flow, running a single simulation per execution. Training is performed using the Adam optimizer, with an optional switch to L-BFGS after 5000 epochs, making it suitable for validation studies and direct comparison with automated or optimized implementations.
+
+### cavidade_cisalhante_sweep.py
+
+This script extends the baseline PINN solver for the two-dimensional lid-driven cavity flow by enabling multiple simulations within a single execution. It allows the user to define a set of simulations with different physical parameters, neural network architectures, and loss weights, which are then executed sequentially.
+
+The script is designed for parameter sweeps and comparative studies, automatically organizing the results of each simulation into structured directories according to the Reynolds number. Unlike the baseline version, this implementation prioritizes automation and reproducibility over interactivity, making it suitable for systematic numerical experiments.
+
 # 🧭 Guia de Boas Práticas – Como escrever um bom README.md
 
 Um bom `README.md` é o **cartão de visita do seu projeto científico**.  
