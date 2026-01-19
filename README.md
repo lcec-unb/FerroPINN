@@ -91,6 +91,9 @@ Inclua também dependências (por exemplo, “necessita do compilador `gfortran`
   <em>Figure 3 – Evolution of the PINN loss function during training for the lid-driven cavity flow.</em>
 </p>
 
+The code generates an output file named `parametros.json`, which contains all the
+hyperparameters used in the simulation:
+
 ```json
 {
     "Re": 10.0,
@@ -108,10 +111,23 @@ Inclua também dependências (por exemplo, “necessita do compilador `gfortran`
     "w_u_rest": 5.0,
     "w_v": 5.0
 }
+```
 
+and an output file named `info_execucao.json` with the following informations
 
-Mostre exemplos reais: gráficos, tabelas ou prints de terminal.
-Use figuras do diretório `examples/` ou `docs/`.
+```json
+{
+    "tempo_total_segundos": 7699.32,
+    "cpu": "x86_64",
+    "arquitetura": "x86_64",
+    "sistema": "Linux 6.14.0-27-generic",
+    "cpu_cores_fisicos": 16,
+    "cpu_cores_logicos": 32,
+    "memoria_total_GB": 67.34,
+    "gpu_disponivel": false,
+    "nome_gpu": "Nenhuma"
+}
+```
 
 ## 🧪 Metodologia / Modelos Matemáticos
 Descreva brevemente o modelo físico ou matemático usado.
