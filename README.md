@@ -76,14 +76,21 @@ Inclua também dependências (por exemplo, “necessita do compilador `gfortran`
 
 ## 📊 Outputs examples
 
-![velocity field](examples/Re10_N15000_B800_E8000_20250828_160957/campo_u.png)
-*Figure 1 – Velocity field (u) for the lid-driven cavity flow.*
+<p align="center">
+  <img src="examples/Re10_N15000_B800_E8000_20250828_160957/campo_u.png" width="45%"><br>
+  <em>Figure 1 – Horizontal velocity field (u) for the lid-driven cavity flow.</em>
+</p>
 
-![Streamlines](examples/Re10_N15000_B800_E8000_20250828_160957/streamlines.png)
-*Figure 2 – Streamlines for the lid-driven cavity flow.*
+<p align="center">
+  <img src="examples/Re10_N15000_B800_E8000_20250828_160957/streamlines.png" width="45%"><br>
+  <em>Figure 2 – Streamlines of the lid-driven cavity flow, highlighting the primary recirculation region.</em>
+</p>
 
-![loss](examples/Re10_N15000_B800_E8000_20250828_160957/loss_detalhada.png)
-*Figure 3 – development of the loss for the lid-driven cavity flow.*
+<p align="center">
+  <img src="examples/Re10_N15000_B800_E8000_20250828_160957/loss_detalhada.png" width="45%"><br>
+  <em>Figure 3 – Evolution of the PINN loss function during training for the lid-driven cavity flow.</em>
+</p>
+
 
 
 
