@@ -1,13 +1,18 @@
-# Projeto LCEC-UNB – Modelo de Repositório
+# FerroPINN
 
-Este repositório serve como **modelo base** para novos projetos de código científico
-desenvolvidos no **Laboratório de Computação Científica em Escoamentos Complexos (LCEC-UNB)**.
+## 🎯 Overview and objectives
+This repository contains Python codes that simulate the lid-driven cavity flow using Physics-Informed Neural Networks (PINNs). The main library employed is [PyTorch](https://pypi.org/project/torch/)
+, which provides the core tools required to implement and train PINN models.
 
-## 🧠 Estrutura de novos repositórios
+The primary objective of this project is to investigate the efficiency of PINNs, starting with a simple validation case (the lid-driven cavity) and subsequently advancing to a more complex physical problem: the thermoconvection of magnetic fluids under an applied magnetic field.
 
-Novos repositórios devem obedecer à estrutura abaixo.
+This repository is associated with the **Laboratório de Computação Científica em Escoamentos Complexos (LCEC-UNB)**.
 
-nome_do_repositorio/
+## 📁 Estrutura de pastas e arquivos
+
+O presente repositório possui a estrutura abaixo.
+
+FerroPINN/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
@@ -19,19 +24,17 @@ nome_do_repositorio/
 - `examples/` → casos de teste e exemplos de simulação  
 - `docs/` → documentação, artigos e anotações técnicas 
 
-Um bom modelo de gitignore para usarmos em projetos científicos é dado abaixo (comece com ele no seu repositório):
+## 📝 Codes
 
-```
-# Arquivos comuns a projetos científicos
-*.o
-*.mod
-*.exe
-__pycache__/
-*.log
-*.dat
-*.tmp
-*.out
-```
+### cavidade_cisalhante.py
+
+This script implements a baseline PINN solver for the two-dimensional lid-driven cavity flow, running a single simulation per execution. Training is performed using the Adam optimizer, with an optional switch to L-BFGS after 5000 epochs, making it suitable for validation studies and direct comparison with automated or optimized implementations.
+
+### cavidade_cisalhante_sweep.py
+
+This script extends the baseline PINN solver for the two-dimensional lid-driven cavity flow by enabling multiple simulations within a single execution. It allows the user to define a set of simulations with different physical parameters, neural network architectures, and loss weights, which are then executed sequentially.
+
+The script is designed for parameter sweeps and comparative studies, automatically organizing the results of each simulation into structured directories according to the Reynolds number. Unlike the baseline version, this implementation prioritizes automation and reproducibility over interactivity, making it suitable for systematic numerical experiments.
 
 # 🧭 Guia de Boas Práticas – Como escrever um bom README.md
 
@@ -72,6 +75,9 @@ make
 Inclua também dependências (por exemplo, “necessita do compilador `gfortran` ou `ifx`”).
 
 ## 📊 Exemplos de Saída
+
+![Campo de velocidade](examples/campo_u.png)
+
 Mostre exemplos reais: gráficos, tabelas ou prints de terminal.
 Use figuras do diretório `examples/` ou `docs/`.
 
@@ -80,7 +86,7 @@ Descreva brevemente o modelo físico ou matemático usado.
 Se possível, cite referências bibliográficas (artigos, dissertações, teses).
 
 ## 👥 Autoria e Responsável
-- **Autor principal:** Nome do aluno (ano)
+- **Autor principal:** André de Oliveira Brandão (2026)
 - **Orientador:** Prof. Rafael Gabler Gontijo  
 - **Laboratório:** [LCEC-UNB](https://github.com/LCEC-UNB)
 

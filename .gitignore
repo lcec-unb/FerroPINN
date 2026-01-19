@@ -1,0 +1,18 @@
+# ================================
+# Arquivos comuns a projetos científicos
+# ================================
+
+# Objetos e módulos compilados (Fortran / C / C++)
+*.o
+*.mod
+*.exe
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Arquivos de log e saída
+*.log
+*.dat
+*.out
+*.tmp
