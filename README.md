@@ -24,20 +24,6 @@ nome_do_repositorio/
 - `examples/` → casos de teste e exemplos de simulação  
 - `docs/` → documentação, artigos e anotações técnicas 
 
-Um bom modelo de gitignore para usarmos em projetos científicos é dado abaixo (comece com ele no seu repositório):
-
-```
-# Arquivos comuns a projetos científicos
-*.o
-*.mod
-*.exe
-__pycache__/
-*.log
-*.dat
-*.tmp
-*.out
-```
-
 # 🧭 Guia de Boas Práticas – Como escrever um bom README.md
 
 Um bom `README.md` é o **cartão de visita do seu projeto científico**.  
