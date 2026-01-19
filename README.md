@@ -8,9 +8,10 @@ The primary objective of this project is to investigate the efficiency of PINNs,
 
 This repository is associated with the **Laboratório de Computação Científica em Escoamentos Complexos (LCEC-UNB)**.
 
-## 📁 Estrutura de pastas e arquivos
+## 📁 Repository structure
 
 O presente repositório possui a estrutura abaixo.
+This repository have the following structure
 
 FerroPINN/
 ├── README.md
@@ -145,29 +146,6 @@ Indique a licença usada (ex: MIT).
 [1] Maziar Raissi, Paris Perdikaris, and George Karniadakis. Physics informed deep learning (part i): Data-driven solutions of nonlinear partial differential equations. 11 2017.
 
 [2] Carlos Marchi, Roberta Suero, and Luciano Araki. The lid-driven square cavity flow: Numerical solution with a 1024 x 1024 grid. Journal of The Brazilian Society of Mechanical Sciences and Engineering - J BRAZ SOC MECH SCI ENG, 31, 07 2009.
-
-## 💡 Boas práticas
-- Use Markdown com títulos (`#`, `##`, `###`), listas e blocos de código.  
-- Prefira explicações curtas e claras.  
-- Inclua imagens e figuras salvas em `docs/` usando:
-  ```markdown
-  ![Descrição da imagem](docs/figura1.png)
-  ```
-- Evite incluir arquivos binários pesados no repositório.  
-- Atualize o `README.md` sempre que o projeto mudar.
----
-
-## 🔧 Dicas extras
-
-- Use emojis para deixar o README mais visual (🎯 ⚙️ 📊 💡).  
-- Se o projeto gerar figuras de resultados, mostre **uma imagem de exemplo**.  
-- Se houver publicação associada, inclua o DOI ou link para o artigo.  
-- Atualize o README a cada etapa relevante (nova versão, caso de teste, release).
-
----
-
-> 📘 **Este guia é parte do padrão oficial de documentação dos projetos do LCEC-UNB.**  
-> Todos os novos repositórios devem incluir um README.md seguindo estas orientações.
 
 ## 👥 Contato
 **Coordenador:** [Prof. Rafael Gabler Gontijo](http://www.rafaelgabler.com.br)   
