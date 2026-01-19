@@ -1,6 +1,6 @@
 # FerroPINN
 
-
+## 🎯 Overview and objectives
 This repository contains Python codes that simulate the lid-driven cavity flow using Physics-Informed Neural Networks (PINNs). The main library employed is [PyTorch](https://pypi.org/project/torch/)
 , which provides the core tools required to implement and train PINN models.
 
