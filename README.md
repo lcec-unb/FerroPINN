@@ -1,4 +1,4 @@
-# Projeto LCEC-UNB – Modelo de Repositório
+# FerroPINN
 
 Este repositório serve como **modelo base** para novos projetos de código científico
 desenvolvidos no **Laboratório de Computação Científica em Escoamentos Complexos (LCEC-UNB)**.
