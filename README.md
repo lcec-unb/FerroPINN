@@ -74,9 +74,18 @@ make
 ```
 Inclua também dependências (por exemplo, “necessita do compilador `gfortran` ou `ifx`”).
 
-## 📊 Exemplos de Saída
+## 📊 Outputs examples
 
-![Campo de velocidade](examples/campo_u.png)
+![velocity field](examples/Re10_N15000_B800_E8000_20250828_160957/campo_u.png)
+*Figure 1 – Velocity field (u) for the lid-driven cavity flow.*
+
+![Streamlines](examples/Re10_N15000_B800_E8000_20250828_160957/streamlines.png)
+*Figure 2 – Streamlines for the lid-driven cavity flow.*
+
+![loss](examples/Re10_N15000_B800_E8000_20250828_160957/loss_detalhada.png)
+*Figure 3 – development of the loss for the lid-driven cavity flow.*
+
+
 
 Mostre exemplos reais: gráficos, tabelas ou prints de terminal.
 Use figuras do diretório `examples/` ou `docs/`.
