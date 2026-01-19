@@ -91,7 +91,23 @@ Inclua também dependências (por exemplo, “necessita do compilador `gfortran`
   <em>Figure 3 – Evolution of the PINN loss function during training for the lid-driven cavity flow.</em>
 </p>
 
-
+```json
+{
+    "Re": 10.0,
+    "N_int": 15000,
+    "N_bc": 800,
+    "epochs": 8000,
+    "layers": 10,
+    "neurons": 30,
+    "activation": "Tanh",
+    "LHS": true,
+    "Troca_Opt_5000": false,
+    "Normalizacao": true,
+    "w_f": 5.0,
+    "w_u_top": 5.0,
+    "w_u_rest": 5.0,
+    "w_v": 5.0
+}
 
 
 Mostre exemplos reais: gráficos, tabelas ou prints de terminal.
