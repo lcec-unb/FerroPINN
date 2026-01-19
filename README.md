@@ -115,7 +115,17 @@ and an output file named `info_execucao.json` with the following informations
 After all the packages are installed, to run the simulation just use the command `python3 cavidade_cisalhante.py` in a terminal.
 
 ## 🧪 Methodology / Mathematical Models
-
+In the context of fluid dynamics simulations, Physics-Informed Neural Networks (PINNs) emerge as a
+powerful alternative to traditional discrete numerical methods commonly used by engineers. Introduced firstly
+by the work of [ 1], PINNs are neural networks that incorporate the governing differential equations directly
+into their learning process, serving as a physical constraint or regularizer for the predicted results.
+While conventional neural networks rely solely on training data to adjust their outputs, PINNs go a step
+further by embedding the physical laws themselves into the optimization process. This makes them a valuable
+tool in computational fluid dynamics (CFD), as they can produce physically consistent solutions even with
+limited training data.
+Unlike traditional methods, PINNs do not require a computational mesh. Instead, they minimize the
+residuals of the governing equations and can be trained with only a small number of known boundary and
+initial conditions
 A physics-informed neural network have the following structure:
 
 <p align="center">
