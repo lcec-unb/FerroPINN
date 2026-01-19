@@ -148,7 +148,7 @@ and an output file named `info_execucao.json` with the following informations
 
 ## 🚀 Execution
 
-After all the packages are installed, just run the simulation just run `python3 cavidade_cisalhante.py` in a terminal.
+After all the packages are installed, to run the simulation just use the command `python3 cavidade_cisalhante.py` in a terminal.
 
 ## 🧪 Methodology / Mathematical Models
 Briefly describe the physical or mathematical model employed.
