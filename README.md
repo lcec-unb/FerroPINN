@@ -150,23 +150,23 @@ and an output file named `info_execucao.json` with the following informations
 
 After all the packages are installed, just run the simulation just run `python3 cavidade_cisalhante.py` in a terminal.
 
-## 🧪 Metodologia / Modelos Matemáticos
-Descreva brevemente o modelo físico ou matemático usado.
-Se possível, cite referências bibliográficas (artigos, dissertações, teses).
+## 🧪 Methodology / Mathematical Models
+Briefly describe the physical or mathematical model employed.
+Whenever possible, cite relevant bibliographic references (articles, dissertations, theses).
 
-## 👥 Autoria e Responsável
-- **Autor principal:** André de Oliveira Brandão (2026)
-- **Orientador:** Prof. Rafael Gabler Gontijo  
-- **Laboratório:** [LCEC-UNB](https://github.com/LCEC-UNB)
+## 👥 Authorship and Supervision
+- **Main author:** André de Oliveira Brandão (2026)
+- **Supervisor:** Prof. Rafael Gabler Gontijo  
+- **Laboratory:** [LCEC-UNB](https://github.com/LCEC-UNB)
 
-## 📜 Licença
-Indique a licença usada (ex: MIT).
+## 📜 License
+Specify the license used (e.g., MIT).
 
-## 📚 Referências
-[1] Maziar Raissi, Paris Perdikaris, and George Karniadakis. Physics informed deep learning (part i): Data-driven solutions of nonlinear partial differential equations. 11 2017.
+## 📚 References
+[1] Maziar Raissi, Paris Perdikaris, and George Karniadakis. *Physics-informed deep learning (Part I): Data-driven solutions of nonlinear partial differential equations*, November 2017.
 
-[2] Carlos Marchi, Roberta Suero, and Luciano Araki. The lid-driven square cavity flow: Numerical solution with a 1024 x 1024 grid. Journal of The Brazilian Society of Mechanical Sciences and Engineering - J BRAZ SOC MECH SCI ENG, 31, 07 2009.
+[2] Carlos Marchi, Roberta Suero, and Luciano Araki. *The lid-driven square cavity flow: Numerical solution with a 1024 × 1024 grid*. Journal of the Brazilian Society of Mechanical Sciences and Engineering, 31, July 2009.
 
-## 👥 Contato
-**Coordenador:** [Prof. Rafael Gabler Gontijo](http://www.rafaelgabler.com.br)   
-**Organização:** [LCEC-UNB no GitHub](https://github.com/LCEC-UNB)
+## 👥 Contact
+**Coordinator:** [Prof. Rafael Gabler Gontijo](http://www.rafaelgabler.com.br)  
+**Organization:** [LCEC-UNB on GitHub](https://github.com/LCEC-UNB)
