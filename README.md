@@ -75,6 +75,9 @@ make
 Inclua também dependências (por exemplo, “necessita do compilador `gfortran` ou `ifx`”).
 
 ## 📊 Exemplos de Saída
+
+![Campo de velocidade](examples/campo_u.png)
+
 Mostre exemplos reais: gráficos, tabelas ou prints de terminal.
 Use figuras do diretório `examples/` ou `docs/`.
 
