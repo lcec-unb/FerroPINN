@@ -42,17 +42,17 @@ The script is designed for parameter sweeps and comparative studies, automatical
 ## 📊 Outputs examples
 
 <p align="center">
-  <img src="examples/Re10_N15000_B800_E8000_20250828_160957/campo_u.png" width="45%"><br>
+  <img src="examples/campo_u.png" width="45%"><br>
   <em>Figure 1 – Horizontal velocity field (u) for the lid-driven cavity flow.</em>
 </p>
 
 <p align="center">
-  <img src="examples/Re10_N15000_B800_E8000_20250828_160957/streamlines.png" width="45%"><br>
+  <img src="examples/streamlines.png" width="45%"><br>
   <em>Figure 2 – Streamlines of the lid-driven cavity flow, highlighting the primary recirculation region.</em>
 </p>
 
 <p align="center">
-  <img src="examples/Re10_N15000_B800_E8000_20250828_160957/loss_detalhada.png" width="45%"><br>
+  <img src="examples/loss_detalhada.png" width="45%"><br>
   <em>Figure 3 – Evolution of the PINN loss function during training for the lid-driven cavity flow.</em>
 </p>
 
