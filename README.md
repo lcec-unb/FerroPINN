@@ -38,6 +38,36 @@ This script extends the baseline PINN solver for the two-dimensional lid-driven 
 
 The script is designed for parameter sweeps and comparative studies, automatically organizing the results of each simulation into structured directories according to the Reynolds number. Unlike the baseline version, this implementation prioritizes automation and reproducibility over interactivity, making it suitable for systematic numerical experiments.
 
+### cavidade_cisalhante_mag.py
+
+This script implements a Physics-Informed Neural Network (PINN) to solve the two-dimensional Lid-Driven Cavity flow for a ferrofluid. It extends the Newtonian benchmark by incorporating Ferrohydrodynamics (FHD) equations, simulating the fluid's behavior under an external magnetic field applied in the $+y$ direction.
+
+Key Features:
+- Physics: Solves the coupled Navier-Stokes and magnetic field equations for superparamagnetic fluids.
+- Methodology: Follows the architecture of `cavidade_cisalhante.py`, but with a modified loss function to account for magnetic body forces (Kelvin force).
+- Library: Built using PyTorch for neural network training and Automatic Differentiation (AD).
+
+### compara_vtk.py
+
+A validation utility designed to perform a quantitative comparison between PINN predictions and OpenFOAM (Finite Volume Method) results. Since PINNs are meshless and OpenFOAM uses a discretized mesh, this script employs the pyvista library to resample the PINN point cloud onto the OpenFOAM grid, ensuring a point-to-point comparison.
+
+Metrics Calculated:
+
+1. Velocity Component Error: Mean Absolute Error (MAE) and Maximum Error for each vector component.
+2. Velocity Magnitude Error: Absolute difference of the velocity norms ($||\mathbf{U}_{OF} - \mathbf{U}_{PINN}||$).
+3. Pressure Error: Mean and Maximum absolute differences for the pressure field.
+
+Usage Requirements:
+
+The script expects two input files in the same directory:
+
+internal.vtu: The OpenFOAM output file.
+saida_pinn.vtk: The PINN prediction file.
+
+Dependencies: 
+
+numpy, pyvista.
+
 
 ## 📊 Outputs examples
 
