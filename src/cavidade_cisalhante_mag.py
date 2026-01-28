@@ -32,8 +32,9 @@ use_lhs = input("📐 Usar LHS? (s/n): ").strip().lower() == "s"
 switch_opt = input("🔁 Trocar otimizador após 5000 épocas? (s/n): ").strip().lower() == "s"
 use_norm = input("🧪 Usar normalização em camadas? (s/n): ").strip().lower() == "s"
 
-# Parâmetro magnético
+# Parâmetros magnéticos
 H0 = float(input("🧲 Campo magnético H0: "))
+chi = float(input("🧲 Susceptibilidade magnética chi: "))
 
 # Pesos da função de perda
 w_f = float(input("⚖️  Peso para o termo do interior: "))
@@ -118,7 +119,7 @@ def loss_function(model, x_f, x_bc, u_bc, v_bc):
     y = x_f[:,1:2]
 
     # Número magnético adimensional
-    Mn = mu0 * H0**2 * D
+    Mn = mu0 * chi * H0**2 * D
 
     # Força magnética
     Fmag = - Mn * (1 - y/D)
