@@ -51,20 +51,20 @@ Key Features:
 
 A validation utility designed to perform a quantitative comparison between PINN predictions and OpenFOAM (Finite Volume Method) results. Since PINNs are meshless and OpenFOAM uses a discretized mesh, this script employs the pyvista library to resample the PINN point cloud onto the OpenFOAM grid, ensuring a point-to-point comparison.
 
-- Metrics Calculated:
+- *Metrics Calculated*:
 
-1. Velocity Component Error: Mean Absolute Error (MAE) and Maximum Error for each vector component.
-2. Velocity Magnitude Error: Absolute difference of the velocity norms ($||\mathbf{U}_{OF} - \mathbf{U}_{PINN}||$).
-3. Pressure Error: Mean and Maximum absolute differences for the pressure field.
+  1. Velocity Component Error: Mean Absolute Error (MAE) and Maximum Error for each vector component.
+  2. Velocity Magnitude Error: Absolute difference of the velocity norms ($||\mathbf{U}_{OF} - \mathbf{U}_{PINN}||$).
+  3. Pressure Error: Mean and Maximum absolute differences for the pressure field.
 
-- Usage Requirements:
+- *Usage Requirements*:
 
 The script expects two input files in the same directory:
 
-internal.vtu: The OpenFOAM output file.
-saida_pinn.vtk: The PINN prediction file.
+  internal.vtu: The OpenFOAM output file.
+  saida_pinn.vtk: The PINN prediction file.
 
-- Dependencies: 
+- *Dependencies*: 
 
 numpy, pyvista.
 
