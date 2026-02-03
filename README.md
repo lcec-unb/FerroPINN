@@ -190,7 +190,7 @@ The neural network consists of the following main components, as indicated in th
 - **Laboratory:** [LCEC-UNB](https://github.com/LCEC-UNB)
 
 ## 📜 License
-Specify the license used (e.g., MIT).
+LCEC-Unb
 
 ## 📚 References
 [1] Maziar Raissi, Paris Perdikaris, and George Karniadakis. *Physics-informed deep learning (Part I): Data-driven solutions of nonlinear partial differential equations*, November 2017.
