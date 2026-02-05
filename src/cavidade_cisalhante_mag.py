@@ -52,7 +52,7 @@ mu0 = 4*np.pi*1e-7
 D = 1.0
 
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-nome_caso = f"Re{int(Re)}_N{N_int}_B{N_bc}_E{epochs}_{timestamp}"
+nome_caso = f"Re{int(Re)}_N{N_int}_B{N_bc}_H{int(H0)}_E{epochs}_{timestamp}"
 os.makedirs(nome_caso, exist_ok=True)
 
 # Salvar parâmetros no JSON
@@ -60,8 +60,8 @@ with open(f"{nome_caso}/parametros.json", "w") as f:
     json.dump({
         "Re": Re, "N_int": N_int, "N_bc": N_bc, "epochs": epochs,
         "layers": layers, "neurons": neurons, "activation": activation.__name__,
-        "LHS": use_lhs, "Troca_Opt_5000": switch_opt, "Normalizacao": use_norm,
-        "w_f": w_f, "w_u_top": w_u_top, "w_u_rest": w_u_rest, "w_v": w_v
+        "LHS": use_lhs, "Troca_Opt_5000": switch_opt, "Normalizacao": use_norm,"campo_magnetico_H0": H0,
+        "susceptibilidade_chi": chi, "w_f": w_f, "w_u_top": w_u_top, "w_u_rest": w_u_rest, "w_v": w_v
     }, f, indent=4)
 
 # Rede neural
