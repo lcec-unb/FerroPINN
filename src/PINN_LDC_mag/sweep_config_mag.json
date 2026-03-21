@@ -1,0 +1,37 @@
+{
+    "sweep_name": "varredura_magnetica",
+    "base": {
+        "Re": 400,
+        "N_int": 2000,
+        "N_bc": 200,
+        "epochs": 8000,
+        "layers": 6,
+        "neurons": 64,
+        "activation": "Tanh",
+        "use_lhs": true,
+        "switch_opt": false,
+        "use_norm": false,
+        "seed": 42,
+        "use_compile": false,
+        "use_amp": true,
+        "resample_every": 500,
+        "log_flush_every": 500,
+        "D": 1.0,
+        "w_f": 1.0,
+        "w_u_top": 10.0,
+        "w_u_rest": 1.0,
+        "w_v": 1.0
+    },
+    "runs": [
+        {"run_id": "run_01", "H0": 0.0,    "chi": 0.0},
+        {"run_id": "run_02", "H0": 1000.0, "chi": 0.1},
+        {"run_id": "run_03", "H0": 1000.0, "chi": 0.5},
+        {"run_id": "run_04", "H0": 1000.0, "chi": 1.0},
+        {"run_id": "run_05", "H0": 2000.0, "chi": 0.1},
+        {"run_id": "run_06", "H0": 2000.0, "chi": 0.5},
+        {"run_id": "run_07", "H0": 2000.0, "chi": 1.0},
+        {"run_id": "run_08", "H0": 5000.0, "chi": 0.1},
+        {"run_id": "run_09", "H0": 5000.0, "chi": 0.5},
+        {"run_id": "run_10", "H0": 5000.0, "chi": 1.0}
+    ]
+}

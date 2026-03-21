@@ -45,4 +45,3 @@ print("== Estatísticas de erro absoluto ==")
 print(f"Velocidade | por componente:  médio = {mean_U_comp:.6e} | máximo = {max_U_comp:.6e}")
 print(f"Velocidade | módulo (||ΔU||):  médio = {mean_U_mag:.6e} | máximo = {max_U_mag:.6e}")
 print(f"Pressão    | absoluto:  médio = {mean_p:.6e} | máximo = {max_p:.6e}")
-

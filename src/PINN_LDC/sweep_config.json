@@ -1,0 +1,42 @@
+{
+    "sweep_name": "varredura_pesos_v2",
+    "base": {
+        "Re": 10,
+        "N_int": 15000,
+        "N_bc": 800,
+        "epochs": 8000,
+        "layers": 10,
+        "neurons": 30,
+        "activation": "Tanh",
+        "use_lhs": true,
+        "use_norm": true,
+        "seed": 42,
+        "use_compile": false,
+        "use_amp": true,
+        "resample_every": 500,
+        "log_flush_every": 500
+    },
+    "runs": [
+        {"run_id": "run_01_adam", "switch_opt": false, "w_f": 1.0, "w_u_top":  5.0, "w_u_rest":  5.0, "w_v":  5.0},
+        {"run_id": "run_02_adam", "switch_opt": false, "w_f": 1.0, "w_u_top": 10.0, "w_u_rest":  5.0, "w_v":  5.0},
+        {"run_id": "run_03_adam", "switch_opt": false, "w_f": 1.0, "w_u_top": 10.0, "w_u_rest": 10.0, "w_v": 10.0},
+        {"run_id": "run_04_adam", "switch_opt": false, "w_f": 1.0, "w_u_top": 20.0, "w_u_rest": 10.0, "w_v": 10.0},
+        {"run_id": "run_05_adam", "switch_opt": false, "w_f": 1.0, "w_u_top": 20.0, "w_u_rest": 20.0, "w_v": 20.0},
+        {"run_id": "run_06_adam", "switch_opt": false, "w_f": 5.0, "w_u_top": 10.0, "w_u_rest":  5.0, "w_v":  5.0},
+        {"run_id": "run_07_adam", "switch_opt": false, "w_f": 5.0, "w_u_top": 20.0, "w_u_rest": 10.0, "w_v": 10.0},
+        {"run_id": "run_08_adam", "switch_opt": false, "w_f": 5.0, "w_u_top": 20.0, "w_u_rest": 20.0, "w_v": 20.0},
+        {"run_id": "run_09_adam", "switch_opt": false, "w_f": 5.0, "w_u_top": 50.0, "w_u_rest": 25.0, "w_v": 25.0},
+        {"run_id": "run_10_adam", "switch_opt": false, "w_f": 5.0, "w_u_top": 50.0, "w_u_rest": 50.0, "w_v": 50.0},
+
+        {"run_id": "run_01_lbfgs", "switch_opt": true, "w_f": 1.0, "w_u_top":  5.0, "w_u_rest":  5.0, "w_v":  5.0},
+        {"run_id": "run_02_lbfgs", "switch_opt": true, "w_f": 1.0, "w_u_top": 10.0, "w_u_rest":  5.0, "w_v":  5.0},
+        {"run_id": "run_03_lbfgs", "switch_opt": true, "w_f": 1.0, "w_u_top": 10.0, "w_u_rest": 10.0, "w_v": 10.0},
+        {"run_id": "run_04_lbfgs", "switch_opt": true, "w_f": 1.0, "w_u_top": 20.0, "w_u_rest": 10.0, "w_v": 10.0},
+        {"run_id": "run_05_lbfgs", "switch_opt": true, "w_f": 1.0, "w_u_top": 20.0, "w_u_rest": 20.0, "w_v": 20.0},
+        {"run_id": "run_06_lbfgs", "switch_opt": true, "w_f": 5.0, "w_u_top": 10.0, "w_u_rest":  5.0, "w_v":  5.0},
+        {"run_id": "run_07_lbfgs", "switch_opt": true, "w_f": 5.0, "w_u_top": 20.0, "w_u_rest": 10.0, "w_v": 10.0},
+        {"run_id": "run_08_lbfgs", "switch_opt": true, "w_f": 5.0, "w_u_top": 20.0, "w_u_rest": 20.0, "w_v": 20.0},
+        {"run_id": "run_09_lbfgs", "switch_opt": true, "w_f": 5.0, "w_u_top": 50.0, "w_u_rest": 25.0, "w_v": 25.0},
+        {"run_id": "run_10_lbfgs", "switch_opt": true, "w_f": 5.0, "w_u_top": 50.0, "w_u_rest": 50.0, "w_v": 50.0}
+    ]
+}
