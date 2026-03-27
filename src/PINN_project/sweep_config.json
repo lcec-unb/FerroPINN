@@ -1,0 +1,39 @@
+{
+  "sweep_name": "sweep_nomag",
+  "base": {
+    "Re":             100,
+    "N_int":          2000,
+    "N_bc":           200,
+    "epochs":         8000,
+    "layers":         6,
+    "neurons":        64,
+    "activation":     "Tanh",
+    "optimizer":      "Adam",
+    "lr":             1e-3,
+    "use_lhs":        false,
+    "switch_opt":     false,
+    "use_norm":       false,
+    "use_compile":    false,
+    "use_amp":        true,
+    "resample_every": 500,
+    "log_flush_every": 500,
+    "seed":           42,
+    "w_f":            1.0,
+    "w_u_top":        1.0,
+    "w_u_rest":       1.0,
+    "w_v":            1.0,
+    "adaptive_weights":  true,
+    "grad_update_every": 100,
+    "magnetic_case":  false
+  },
+  "runs": [
+    {
+      "run_id": "Re100_nomag",
+      "Re": 100
+    },
+    {
+      "run_id": "Re400_nomag",
+      "Re": 400
+    }
+  ]
+}

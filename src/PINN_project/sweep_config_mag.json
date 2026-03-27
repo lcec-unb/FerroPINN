@@ -1,0 +1,42 @@
+{
+  "sweep_name": "sweep_mag",
+  "base": {
+    "Re":             100,
+    "N_int":          2000,
+    "N_bc":           200,
+    "epochs":         8000,
+    "layers":         6,
+    "neurons":        64,
+    "activation":     "Tanh",
+    "optimizer":      "Adam",
+    "lr":             1e-3,
+    "use_lhs":        false,
+    "switch_opt":     false,
+    "use_norm":       false,
+    "use_compile":    false,
+    "use_amp":        true,
+    "resample_every": 500,
+    "log_flush_every": 500,
+    "seed":           42,
+    "w_f":            1.0,
+    "w_u_top":        1.0,
+    "w_u_rest":       1.0,
+    "w_v":            1.0,
+    "adaptive_weights":  true,
+    "grad_update_every": 100,
+    "magnetic_case":  true,
+    "D":              1.0
+  },
+  "runs": [
+    {
+      "run_id": "mag_H1000_chi0p5",
+      "H0":  1000.0,
+      "chi": 0.5
+    },
+    {
+      "run_id": "mag_H2000_chi1p0",
+      "H0":  2000.0,
+      "chi": 1.0
+    }
+  ]
+}
